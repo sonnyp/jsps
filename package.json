@@ -1,8 +1,14 @@
 {
   "name": "psjs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pure JavaScript ps binding",
-  "keywords": ["ps", "cpu", "memory", "load", "usage"],
+  "keywords": [
+    "ps",
+    "cpu",
+    "memory",
+    "load",
+    "usage"
+  ],
   "scripts": {
     "lint": "standard",
     "unit": "node test.js",
