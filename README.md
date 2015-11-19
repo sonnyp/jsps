@@ -1,7 +1,7 @@
 jsps
 ====
 
-Pure JavaScript binding to [ps](https://en.wikipedia.org/wiki/Ps_%28Unix%29).
+JavaScript binding to [ps](https://en.wikipedia.org/wiki/Ps_%28Unix%29).
 
 [![build status](https://img.shields.io/travis/sonnyp/jsps/master.svg?style=flat-square)](https://travis-ci.org/sonnyp/jsps/branches)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
