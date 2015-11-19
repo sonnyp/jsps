@@ -1,19 +1,19 @@
-psjs
+jsps
 ====
 
 Pure JavaScript binding to [ps](https://en.wikipedia.org/wiki/Ps_%28Unix%29).
 
-[![build status](https://img.shields.io/travis/sonnyp/psjs/master.svg?style=flat-square)](https://travis-ci.org/sonnyp/psjs/branches)
+[![build status](https://img.shields.io/travis/sonnyp/jsps/master.svg?style=flat-square)](https://travis-ci.org/sonnyp/jsps/branches)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
 ```
-npm install psjs
+npm install jsps
 ```
 
 # Usage
 
 ```javascript
-var ps = require('psjs')
+var ps = require('jsps')
 
 var options = {
   pid: process.pid, // if undefined, process.pid is used
