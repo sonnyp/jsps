@@ -1,7 +1,7 @@
 {
   "name": "jsps",
   "version": "1.0.0",
-  "description": "Pure JavaScript ps binding",
+  "description": "JavaScript ps binding",
   "keywords": [
     "ps",
     "cpu",
