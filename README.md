@@ -20,7 +20,7 @@ var options = {
   keywords: ['%cpu', '%mem'] // man ps for the list of keywords
 }
 
-ps(options, function(err, result) {
+ps.lookup(options, function(err, result) {
   console.log(err || result)
 })
 ```

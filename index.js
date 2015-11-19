@@ -21,7 +21,7 @@ function getKeywords (cb) {
   })
 }
 
-function get (options, cb) {
+function lookup (options, cb) {
   var pid = options.pid || process.pid
   ps('-p ' + pid + ' -o ' + options.keywords.join(','), function (err, stdout) {
     if (err) {
@@ -45,5 +45,5 @@ function get (options, cb) {
   })
 }
 
-module.exports = get
+module.exports.lookup = lookup
 module.exports.getKeywords = getKeywords

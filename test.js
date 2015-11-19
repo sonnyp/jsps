@@ -11,7 +11,7 @@ ps.getKeywords(function (err, keywords) {
 })
 
 // default pid
-ps({keywords: ['%cpu', '%mem']}, function (err, result) {
+ps.lookup({keywords: ['%cpu', '%mem']}, function (err, result) {
   assert(err === null)
   // lowercased
   assert.equal(typeof result['%cpu'], 'string')
@@ -20,7 +20,7 @@ ps({keywords: ['%cpu', '%mem']}, function (err, result) {
 })
 
 // with pid not found
-ps({keywords: ['%cpu', '%mem'], pid: 6666}, function (err, result) {
+ps.lookup({keywords: ['%cpu', '%mem'], pid: 6666}, function (err, result) {
   assert(err instanceof Error)
   assert(result === undefined)
 })
